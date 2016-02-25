@@ -1,16 +1,16 @@
 import React from 'React';
 import Exim from 'exim';
-import counterStore from 'stores/counter';
+import CounterStore from 'stores/counter';
 
 export default Exim.createView({
-  mixins: [counterStore.connect('count')],
+  mixins: [CounterStore.connect('count')],
 
   onPlusClick() {
-    counterStore.actions.increment();
+    CounterStore.actions.increment();
   },
 
   onMinusClick() {
-    counterStore.actions.decrement();
+    CounterStore.actions.decrement();
   },
 
   render() {

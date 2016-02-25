@@ -1,10 +1,12 @@
-exports.config = {
-  npm: {
-    enabled: true,
-
-    globals: {
-      React: 'react' // needed because Exim relies on globals at the moment...
-    }
+module.exports = {
+  files: {
+    javascripts: {
+      joinTo: {
+        'vendor.js': /^(?!app)/,
+        'app.js': /^app/
+      }
+    },
+    stylesheets: {joinTo: 'app.css'}
   },
 
   plugins: {
@@ -14,12 +16,9 @@ exports.config = {
     }
   },
 
-  files: {
-    javascripts: {
-      joinTo: 'app.js'
-    },
-    stylesheets: {
-      joinTo: 'app.css'
+  npm: {
+    globals: {
+      React: 'react' // Exim temporarily relies on globals.
     }
   }
 };
