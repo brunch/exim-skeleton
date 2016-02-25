@@ -4,7 +4,7 @@ This is a modern JS skeleton with Exim and React for [Brunch](http://brunch.io).
 
 ## Installation
 
-Clone this repo manually or use `brunch new dir -s exim`
+Clone this repo manually or use `brunch new dir -s hellyeahllc/with-exim`
 
 ## Getting started
 
