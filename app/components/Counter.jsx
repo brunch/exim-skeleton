@@ -16,7 +16,7 @@ export default Exim.createView({
   render() {
     return (
       <div>
-        <h2>Exim Counter:</h2>
+        <h5><a href="https://hellyeahllc.github.io/exim/">Exim</a> &amp; <a href="https://facebook.github.io/react/">React</a> Counter</h5>
         <p>
           <button onClick={this.onMinusClick}>-</button>
           {this.state && this.state.count}

@@ -1,3 +1,4 @@
+// See http://brunch.io for documentation.
 exports.files = {
   javascripts: {
     joinTo: {
@@ -9,5 +10,5 @@ exports.files = {
 };
 
 exports.plugins = {
-  babel: {presets: ['es2015', 'react']}
-}
+  babel: {presets: ['latest', 'react']}
+};

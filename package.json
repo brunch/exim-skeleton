@@ -1,5 +1,5 @@
 {
-  "name": "Application",
+  "name": "brunch-app",
   "description": "Brunch.io application",
   "private": true,
   "author": "Brunch",
@@ -18,9 +18,9 @@
   "devDependencies": {
     "auto-reload-brunch": "^2",
     "babel-brunch": "~6.0.0",
-    "babel-preset-es2015": "~6.22",
+    "babel-preset-latest": "^6",
     "babel-preset-react": "~6.22",
-    "brunch": "^2.10",
+    "brunch": "^2",
     "clean-css-brunch": "^2",
     "uglify-js-brunch": "^2"
   }
